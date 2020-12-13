@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	 <title>Flex</title>
+	 <style type="text/css">
+
+	 	 @media (max-width: 768px) {
+	 		#boxcontainer {
+	 			flex-direction: column;
+	 		}
+	 	}
+
+	 	 @media (max-width: 768px) {
+	 		.orangebox1 {
+	 			width: 73vw;
+	 			margin-bottom: 50px;
+	 		}
+	 	}
+
+	 	@media (max-width: 768px) {
+	 		.orangebox2 {
+	 			width: 73vw;
+	 			margin-bottom: 50px;
+	 		}
+	 	}
+
+		 #navbar {
+	  		 display: flex; 
+  			 height: 75px;
+  			 background-color: royalblue;
+  			 justify-content: flex-end;
+		 }
+
+		 .ul {
+  			display: flex;
+  			list-style-type: none;
+  			font-size: 19px;
+  			margin: 0px; 
+		}
+
+		 li {
+  			margin: 20px;
+		 }
+
+		 .navn {
+		 	margin-right: 840px;
+		 	font-size: 25px;
+		 }
+
+		 .home {
+		 	border: 1px solid black;
+		 	border-radius: 10px;
+		 	padding: 3px;
+		 }
+
+		 li a {
+		 	color: black;
+		 	text-decoration: none;
+		 } 
+
+		 #header {
+  			 display: flex;
+  			 height: 400px;
+  			 background: url(https://playboyrussia.com/images/cache/2020/5/15/fit_930_519_false_crop_4796_2697_0_449_q90_469011_8530f75eac8ea7f7e134bdde3.jpeg) no-repeat center center;
+  			 background-size: cover;
+  			 flex-direction: column;
+  			 align-items: center;
+		 }
+
+		 .f1 {
+		 	font-size: 17px;
+		 	font-style: oblique;
+		 	margin-top: 100px;
+		 	margin-bottom: 0px;
+		 	color: white;
+		 }
+
+		 .f2 {
+		 	font-size: 40px;
+		 	font-weight: 150;
+		 	margin-top: 4px;
+		 	margin-bottom: 4px;
+		 	color: white;
+		 }
+
+		 .f3 {
+		 	font-size: 17px;
+		 	font-style: oblique;
+		 	margin-top: 5px;
+		 	color: black;
+		 	text-decoration: none;
+		 	border: 1px solid gray;
+		 	background-color: gray;
+		 	text-transform: uppercase;
+		 	letter-spacing: 1px;
+		 	border-radius: 10px;
+		 	box-shadow: 0 0 20px rgba(0, 0, 0, .1)
+
+		 }
+
+		 #mainsection {
+			 display: flex;
+			 height: 500px;
+			 background-color: gray;
+			 margin-left: 100px;
+			 margin-right: 100px;
+			 margin-top: 75px;
+			 margin-bottom: 75px;
+			 flex-direction: column;
+		 }
+
+		 .yellowparagraph {
+			 height: 200px;
+			 width: 100%;
+			 background-color: khaki;
+			 margin-bottom: 75px;
+			 text-align: center;
+		 }
+
+		 .fy {
+		 	font-size: 19px;
+		 	margin-left: 150px;
+		 	margin-right: 150px;
+		 }
+
+		 #boxcontainer {
+			 display: flex;
+			 justify-content: space-between;
+		 }
+
+		 .orangebox1 {
+			 height: 225px;
+			 width: 48%;
+			 background-color: tomato;
+			 text-align: center;
+		 }
+
+		 .or1f {
+		 	font-size: 17px;
+		 	margin-right: 75px;
+		 	margin-left: 75px; 
+		 }
+
+		 .orangebox2 {
+			 height: 225px;
+			 width: 48%;
+			 background-color: tomato;
+			 text-align: center;
+		 }
+
+		 .or2f {
+		 	font-size: 17px;
+		 	margin-right: 75px;
+		 	margin-left: 75px; 
+		 }
+
+		 #prefooter {
+			 display: flex;
+			 height: 40px;
+			 background-color: silver;
+			 align-items: center;
+			 justify-content: center;
+		 }
+
+		 .pf {
+		 	font-style: italic;
+		 	padding-bottom: 5px;
+		 }
+
+		 #footer {
+			 display: flex;
+			 height: 100px;
+			 background-color: black;
+			 align-items: center;
+			 justify-content: center;
+		 }
+
+		 .footr {
+		 	font-style: italic;
+		 	padding-bottom: 5px;
+		 	color: grey;
+		 }
+
+	 </style>
+ </head>
+ <body>
+
+	 <div id="navbar">
+	 	<ul class="ul">
+	 		<li class="navn"><a href="#">Butterflies portal</a></li>
+	 		<li><a href="#" class="home">Home</a></li>
+	 		<li><a href="#">Upcoming events</a></li>
+	 		<li><a href="#">Species</a></li>
+	 		<li><a href="#">Types</a></li>
+	 	</ul>
+	 </div>
+	 <div id="header">
+	 	<p class="f1">fan group of</p>
+	 	<p class="f2">Butterflies</p>
+	 </div>
+	 <div id="mainsection">
+		 <div class="yellowparagraph">
+		 	<h2>Become a butterflies fan with us</h2>
+		 	<p class="fy">Butterflies are insects in the macrolepidopteran clade Rhopalocera from the order Lepidoptera, which also includes moths. Adult butterflies have large, often brightly coloured wings, and conspicuous, fluttering flight. The group comprises the large superfamily Papilionoidea, which contains at least one former group, the skippers (formerly the superfamily "Hesperioidea"), and the most recent analyses suggest it also contains the moth-butterflies (formerly the superfamily "Hedyloidea"). Butterfly fossils date to the Paleocene, about 56 million years ago.</p>
+		 </div>
+		 <div id="boxcontainer">
+			 <div class="orangebox1">
+			 	<h3>Etymology</h3>
+		 		<p class="or1f">Oxford English Dictionary derives the word straightforwardly from Old English butorflēoge, butter-fly; similar names in Old Dutch and Old High German show that the name is ancient. A possible source of the name is the bright yellow male of the brimstone (Gonepteryx rhamni); another is that butterflies were on the wing in meadows during the spring and summer butter season while the grass was growing</p>
+			 </div>
+			 <div class="orangebox2">
+			 	<h3>Participate</h3>
+			 	<p class="or2f">Have fun at meetings, take a part in them.</p>
+			 </div>
+		 </div> 
+	 </div>
+	 <div id="prefooter">
+	 	<h3 class="pf">Watch</h3>
+	 </div>
+	 <div id="footer">
+	 	<p class="footr">&copy; 2020 All rights reserved</p>
+	 </div>
+
+ </body>
+</html>
